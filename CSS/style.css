@@ -6,17 +6,15 @@
 }
 
 body {
-    width: auto;
-    height: 100%;
     padding: 0px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     
 }
 
 header {
     position: relative;
     width: auto;
-    height: 20lvh;
+    height: 20vh;
     background-color: #faebd7;
     border: 1px solid #000000;
 }
@@ -35,70 +33,36 @@ header >div > p {
 main {
     width: auto;
     height: 70vh;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 
 }
 
-section {
-    border: 1px solid #000000;
-}
-
-
-.info {
-    display: inline-block;
-    /*margin-top: -3px;
-    margin-left: -1px;*/
-    
-}
-
-#menu{
-    position: relative;
-    display: inline-block;
-    width: 20%;
-    height: 100%;
-    border: 1px solid #000000;
-}
-
-#pessoa {
-    display:inline-block;
-    position: absolute;
-    width: 80%;
-    height: 70vh;
-}
-
-#dados {
-    
-    height: 30%;
-    background-color: #7fffd4;
-    border: 1px solid #000000;
-}
-
-.ender {
-    display: inline-block;
-    width: 49.7%;
+.conteiner {
+    display: inline;    
     height: 70%;
+    /*background-color: #00ffff;*/
+    border: 1px solid #000000;
+    /*margin-top: 2px;*/
 }
 
-#resid {
-    position: relative;
-    background-color: #c4e8f8;
+#menu {
+    position: fixed;
+    width: 20%;
     border: 1px solid #000000;
-    /*margin-right: -3px;*/
+    margin: -1px -2px 0px 0px;
 }
 
-#comerc {
-    position: absolute;
-    background-color: #ff0000;
-    border: 1px solid #000000;
-    /*margin-right: -4px;*/
-    
+article {
+    position:fixed;
+    left: 20%;
+    top: 20%;
+    width: 80%;
+    margin: 1px 0px 0px 1px;
 }
+
+
 
 footer {
-    width: 100%;
-    height: 10vh;
-    display: block;
-    position: relative;
-    border: 1px solid #000000;
-    /*background-color: #808080;*/
+    height: 10%;
+    border: 0.5px solid #000000;
 }
