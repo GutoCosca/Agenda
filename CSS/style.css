@@ -1,0 +1,104 @@
+@charset "UTF8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: auto;
+    height: 100%;
+    padding: 0px;
+    border: 1px solid #000000;
+    
+}
+
+header {
+    position: relative;
+    width: auto;
+    height: 20lvh;
+    background-color: #faebd7;
+    border: 1px solid #000000;
+}
+
+header > div {
+    margin-top: 7vh;
+    border: 1px solid #000000;
+}
+
+header >div > p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main {
+    width: auto;
+    height: 70vh;
+    border: 1px solid #000000;
+
+}
+
+section {
+    border: 1px solid #000000;
+}
+
+
+.info {
+    display: inline-block;
+    /*margin-top: -3px;
+    margin-left: -1px;*/
+    
+}
+
+#menu{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+#pessoa {
+    display:inline-block;
+    position: absolute;
+    width: 80%;
+    height: 70vh;
+}
+
+#dados {
+    
+    height: 30%;
+    background-color: #7fffd4;
+    border: 1px solid #000000;
+}
+
+.ender {
+    display: inline-block;
+    width: 49.7%;
+    height: 70%;
+}
+
+#resid {
+    position: relative;
+    background-color: #c4e8f8;
+    border: 1px solid #000000;
+    /*margin-right: -3px;*/
+}
+
+#comerc {
+    position: absolute;
+    background-color: #ff0000;
+    border: 1px solid #000000;
+    /*margin-right: -4px;*/
+    
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: block;
+    position: relative;
+    border: 1px solid #000000;
+    /*background-color: #808080;*/
+}
