@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border-collapse: collapse;
 }
 
 header{
@@ -20,9 +21,25 @@ main {
     background-color: #d67faa;
 }
 
+nav {
+    display: inline-block;
+    width: 15vw;
+    height: 70vh;
+    background-color: aquamarine;
+
+}
+
+article {
+    display: inline-block;
+    position: absolute;
+    width: 85vw;
+    height: 70vh;
+    background-color: #ff7f50;
+}
+
 footer {
     height: 10vh;
-    background-color: #979696;
+    background-color: hsl(0, 0%, 59%);
 }
 
 
