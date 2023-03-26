@@ -6,41 +6,65 @@
     border-collapse: collapse;
 }
 
-header{
-    height: 20vh;
-    background-color: #b9b9f3;
-}
-h1 {
-    text-align: center;
-    padding-top: 5vh;
-    font-size: 5em;
-}
+    header{
+        height: 20vh;
+        background-color: #b9b9f3;
+    }
+    
+        h1 {
+            text-align: center;
+            padding-top: 5vh;
+            font-size: 5em;
+        }
 
-main {
-    height: 70vh;
-    background-color: #d67faa;
-}
+    main {
+        height: 70vh;
+        background-color: #d67faa;
+    }
 
-nav {
-    display: inline-block;
-    width: 15vw;
-    height: 70vh;
-    background-color: aquamarine;
+        aside {
+            display: inline-block;
+            width: 15vw;
+            height: 70vh;
+            background-color: aquamarine;
+        }
 
-}
+            #menu {
+                display: inline-block;
+                width: 5vh;
+                height: 70%;
+                background-color: #bdb76b;
+            }
 
-article {
-    display: inline-block;
-    position: absolute;
-    width: 85vw;
-    height: 70vh;
-    background-color: #ff7f50;
-}
+                #indice {
+                    list-style: none;
+                    padding: 6px 0px 0px 15px;
+                }
 
-footer {
-    height: 10vh;
-    background-color: hsl(0, 0%, 59%);
-}
+                    .letra {
+                        margin-top: 7px;
+                    }
+
+            /*.nomes {
+                display: inline-block;
+                position: relative;
+                width: 10vh;
+                height: 70%;
+                background-color: #d18f59;
+            }*/
+
+        article {
+            display: inline-block;
+            position: absolute;
+            width: 85vw;
+            height: 70vh;
+            background-color: #ff7f50;
+        }
+
+    footer {
+        height: 10vh;
+        background-color: hsl(0, 0%, 59%);
+    }
 
 
 
