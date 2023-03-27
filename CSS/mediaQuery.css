@@ -5,6 +5,7 @@
     /* Para visualização em tablet e smartphones*/
 
     .letra {
+        padding-top: 0.1vh;
         font-size: 0.55em;
     }
 
