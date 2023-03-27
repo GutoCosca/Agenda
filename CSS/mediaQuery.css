@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (max-width: 760px) {
+
+    /* Para visualização em tablet e smartphones*/
 
     .letra {
-        font-size: 0.8em;
+        font-size: 0.55em;
     }
 
 }

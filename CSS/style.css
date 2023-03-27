@@ -94,7 +94,15 @@
         background-color: #969696;
     }
 
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
 
+        /* Para visualização em notebooks */
+    
+        .letra {
+            font-size: 0.8em;
+        }
+    
+    }
 
 
 
