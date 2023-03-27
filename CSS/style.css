@@ -26,19 +26,19 @@
             display: inline-block;
             width: 15vw;
             height: 70vh;
-            background-color: aquamarine;
+            background-color: #7fffd4;
         }
 
             #menu {
                 display: inline-block;
-                width: 5vw;
+                width: 3vw;
                 height: 70vh;
                 background-color: #bdb76b;
             }
 
                 #indice {
                     list-style: none;
-                    padding: 6px 0px 0px 15px;
+                    padding: 6px 0px 0px 23px;
                 }
 
                     .letra {
@@ -48,7 +48,7 @@
             #lista {
                 display: inline-block;
                 position: absolute;
-                width: 10vw;
+                width: 12vw;
                 height: 70vh;
                 background-color: #d18f59;
             }
@@ -61,9 +61,36 @@
             background-color: #ff7f50;
         }
 
+            #infoPessoal {
+                display: inline-block;
+                position: absolute;
+                width: 85vw;
+                height: 20vh;
+                background-color: #bdb76b;
+            }
+
+            #endResid {
+                display: inline-block;
+                position: absolute;
+                top: 20vh;
+                width: 42.5vw;
+                height: 50vh;
+                background-color: #ee82ee;
+            }
+
+            #endCom {
+                display: inline-block;
+                position: absolute;
+                top: 20vh;
+                left: 42.5vw;
+                width: 42.5vw;
+                height: 50vh;
+                background-color: #00ced1;
+            }
+
     footer {
         height: 10vh;
-        background-color: hsl(0, 0%, 59%);
+        background-color: #969696;
     }
 
 
