@@ -70,6 +70,35 @@
                 background-color: #bdb76b;
             }
 
+                h2 {
+                    text-align: center;
+                    padding: 10px 0px 10px 0px;
+                }    
+
+                label {
+                    display: inline-block;
+                    width: 85px;
+                    text-align: left;
+                    padding: 10px 0px 10px 20px;
+                }
+
+                input {
+                    width: 50px;
+                    text-align: left;
+                }
+
+                .txtGr {
+                    width: 500px;
+                }
+
+                .txtMd {
+                    width: 200px;
+                }
+
+                .numGr {
+                    width: 110px;
+                }
+
             #endResid {
                 display: inline-block;
                 position: absolute;
