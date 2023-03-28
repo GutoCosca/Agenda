@@ -70,6 +70,20 @@
                 background-color: #bdb76b;
             }
 
+                #iFoto{
+                    display: inline-block;
+                    width: 7vw;
+                    height: 18vh;
+                    margin: 10px 0px 10px 30px;
+                    border: 1px solid #000000;
+                }
+
+                .dadosPessoal {
+                    display: inline-block;
+                    position: absolute;
+                    padding: 4vh 0vw 0vh 3vw;
+                }
+
                 h2 {
                     text-align: center;
                     padding: 35px 0px 35px 0px;

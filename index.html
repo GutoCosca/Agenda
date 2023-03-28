@@ -50,14 +50,16 @@
         </nav>
         <form action="dados.php" method="get">
             <section id="infoPessoal">
-                <label for="iFoto">Foto</label>
+                <!--<label for="iFoto">Foto</label>-->
                 <input type="image" name="foto" id="iFoto">
-                <label for="iNome">Nome:</label>
-                <input type="text" name="nome" id="iNome" class="txtMd">
-                <label for="iSobrnome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="iSobrenome" class="txtGr"></br>
-                <label for="iNatal">Data de Nascimento:</label>
-                <input type="date" name="natal" id="iNata" class="numGr">
+                <div class="dadosPessoal">
+                    <label for="iNome">Nome:</label>
+                    <input type="text" name="nome" id="iNome" class="txtMd">
+                    <label for="iSobrnome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="iSobrenome" class="txtGr"></br>
+                    <label for="iNatal">Data de Nascimento:</label>
+                    <input type="date" name="natal" id="iNata" class="numGr">
+                </div>
             </section>
             <section id="endResid">
                 <h2>Dados Residêncial</h2></br>
