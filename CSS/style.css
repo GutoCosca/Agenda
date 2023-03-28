@@ -24,14 +24,14 @@
 
         nav {
             display: inline-block;
-            width: 15vw;
+            width: 20vw;
             height: 70vh;
             background-color: #7fffd4;
         }
 
             #menu {
                 display: inline-block;
-                width: 3vw;
+                width: 5vw;
                 height: 70vh;
                 background-color: #bdb76b;
             }
@@ -49,7 +49,7 @@
             #lista {
                 display: inline-block;
                 position: absolute;
-                width: 12vw;
+                width: 15vw;
                 height: 70vh;
                 background-color: #d18f59;
             }
@@ -57,7 +57,7 @@
         form {
             display: inline-block;
             position: absolute;
-            width: 85vw;
+            width: 80vw;
             height: 70vh;
             background-color: #ff7f50;
         }
@@ -65,21 +65,21 @@
             #infoPessoal {
                 display: inline-block;
                 position: absolute;
-                width: 85vw;
+                width: 80vw;
                 height: 20vh;
                 background-color: #bdb76b;
             }
 
                 h2 {
                     text-align: center;
-                    padding: 10px 0px 10px 0px;
+                    padding: 35px 0px 35px 0px;
                 }    
 
                 label {
                     display: inline-block;
                     width: 85px;
-                    text-align: left;
-                    padding: 10px 0px 10px 20px;
+                    text-align: center;
+                    padding: 15px 0px 15px 25px;
                 }
 
                 input {
@@ -88,7 +88,7 @@
                 }
 
                 .txtGr {
-                    width: 500px;
+                    width: 400px;
                 }
 
                 .txtMd {
@@ -99,23 +99,43 @@
                     width: 110px;
                 }
 
+                .numPq {
+                    width: 50px;
+                }
+
+                #iRamalCom {
+                    width: 35px;
+                }
+
             #endResid {
                 display: inline-block;
                 position: absolute;
                 top: 20vh;
-                width: 42.5vw;
+                width: 40vw;
                 height: 50vh;
                 background-color: #ee82ee;
+            }
+
+            #endResid > label {
+                padding: 15px 0px 15px 80px;
             }
 
             #endCom {
                 display: inline-block;
                 position: absolute;
                 top: 20vh;
-                left: 42.5vw;
-                width: 42.5vw;
+                left: 40vw;
+                width: 40vw;
                 height: 50vh;
                 background-color: #00ced1;
+            }
+
+            #endCom > h2 {
+                padding-bottom: 5px;
+            }
+
+            #endCom > label {
+                padding: 15px 0px 15px 50px;
             }
 
     footer {
@@ -129,146 +149,19 @@
     
         .letra {
             font-size: 0.8em;
+        }  
+
+        label {
+            display: inline-block;
+            width: 85px;
+            text-align: center;
         }
-    
+
+        #endResid > label {
+            padding: 10px 0px 10px 10px;
+        }
+
+        #endCom > label {
+            padding: 10px 0px 10px 7px;
+        }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    padding: 0px;    
-}
-
-header {
-    position: relative;
-    width: auto;
-    height: 20vh;
-    background-color: #fad7d7;
-    border: 1px solid #000000;
-}
-
-#titulo {
-    padding-top: 4vh;
-    border: 1px solid #000000;
-    text-align: center;
-    font-size: 4em;
-    font-weight: bolder;
-}
-
-main {
-    width: auto;
-    height: 70vh;
-    border: 1px solid #000000;
-}
-
-.conteiner {
-    display: inline;    
-    height: 75%;
-}
-
-#menu {
-    position: fixed;
-    width: 20%;
-    top:15%;
-    background-color: #d2691e;
-}
-
-ul {
-    margin: 20px 0px 0px 20px;
-}
-
-li {
-    list-style-type: none;
-    margin-top: 6px;
-}
-
-article {
-    position:fixed;
-    left: 20%;
-    top: 15%;
-    width: 80%;
-}
-
-#pessoa {
-    display: block;
-    height: 30%;
-    background-color: #00ffff;
-    padding: 5px 5px 5px 10px;
-}
-
-.dados {
-    display:inline-block;
-    background-color: #ba8ee4;
-}
-
-#foto {
-    position: relative;
-    width: 20vw ;
-    height: 22.5vh;
-    top: -8.5%;
-}
-
-.dadospessoal {
-    display: inline-block;
-    position: relative;
-    width: 29vw;
-    height: 22.5vh;
-}
-div {
-    margin-top: 40px;
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-#nomeNatal {
-    position: relative;
-}
-
-#sobreIdade {
-    position: relative;
-
-}
-
-.endereco {
-    display: inline-block;
-    width: 50%; 
-    height: 80%;
-    padding: 5px 5px 5px 10px;
-}
-
-#residencial {
-    background-color: #6495ed;
-}
-
-#comercial {
-    position: absolute;
-    background-color: #dc143c;
-}
-
-footer {
-    display: block;
-    position:fixed;
-    top:90%;
-    width: 100%;
-    height: 10%;
-    border: 0.5px solid #000000;
-}*/
