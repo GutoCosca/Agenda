@@ -81,7 +81,7 @@
                 .dadosPessoal {
                     display: inline-block;
                     position: absolute;
-                    padding: 4vh 0vw 0vh 3vw;
+                    padding: 6vh 0vw 0vh 4vw;
                 }
 
                 h2 {
@@ -99,6 +99,10 @@
                 input {
                     width: 50px;
                     text-align: left;
+                }
+
+                #iNome {
+                    width: 150px;
                 }
 
                 .txtGr {
@@ -164,6 +168,14 @@
         .letra {
             font-size: 0.8em;
         }  
+
+        #iFoto{
+            margin: 10px -10px 10px 10px;
+        }
+
+        .dadosPessoal {
+            padding: 6vh 0vw 0vh 0vw;
+        }
 
         label {
             display: inline-block;
