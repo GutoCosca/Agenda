@@ -10,32 +10,32 @@
     overflow-x: hidden;
 }*/
     header{
-        height: 200px;
+        height: 150px;
         background-color: #b9b9f3;
     }
     
         h1 {
-            padding-top: 50px;
+            padding-top: 30px;
             font-size: 5em;
             text-align: center;
         }
 
     main {
-        height: 780px;
+        height: 760px;
         background-color: #d67faa;
     }
 
         nav {
             display: inline-block;
             width: 363px;
-            height: 780px;
+            height: 760px;
             background-color: #7fffd4;
         }
 
             #menu {
                 display: inline-block;
                 width: 100px;
-                height: 780px;
+                height: 760px;
                 background-color: #bdb76b;
             }
 
@@ -53,7 +53,7 @@
                 display: inline-block;
                 position: absolute;
                 width: 280px;
-                height: 780px;
+                height: 760px;
                 background-color: #d18f59;
             }
 
@@ -61,14 +61,14 @@
             display: inline-block;
             position: absolute;
             width: 1540px;
-            height: 780px;
+            height: 760px;
             background-color: #ff7f50;
         }
 
             #infoPessoal {
                 display: inline-block;
                 position: absolute;
-                width: 1540px;
+                width: 1557px;
                 height: 200px;
                 background-color: #bdb76b;
             }
@@ -133,8 +133,8 @@
                 display: inline-block;
                 position: absolute;
                 top: 200px;
-                width: 770px;
-                height: 580px;
+                width: 778.5px;
+                height: 560px;
                 background-color: #ee82ee;
             }
 
@@ -146,9 +146,9 @@
                 display: inline-block;
                 position: absolute;
                 top: 200px;
-                left: 770px;
-                width: 770px;
-                height: 580px;
+                left: 778.5px;
+                width: 778.5px;
+                height: 560px;
                 background-color: #00ced1;
             }
 
@@ -161,12 +161,12 @@
             }
 
     footer {
-        height: 100px;
+        height: 50px;
         background-color: #969696;
     }
 
         footer > div{
-            padding-top: 35px;
+            padding-top: 15px;
             text-align: center;
             font-size: 1.3em;
             font-weight: bolder;
