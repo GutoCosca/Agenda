@@ -65,12 +65,16 @@
 
 @media screen and (max-width: 768px) {
 
-    /* Para visualização e smartphones*/
+    /* Para visualização tablet smartphones*/
 
     *{
         font-size: 0.95em;
     }
 
+    body {
+        width: 100vw;
+        border: 1px solid #000000;
+    }
         header {
             width: 100vw;
             height: 100px;
@@ -83,7 +87,7 @@
 
         main {
             width: 100vw;
-            height: 1180px;
+            height: 1170px;
         }
 
             nav {
@@ -92,11 +96,11 @@
 
                 #menu {
                     width: 10vw;
-                    height: 1180px;
+                    height: 1170px;
                 }
 
                     #indice {
-                        height: 1180px;
+                        height: 1170px;
                         list-style: none;
                         padding-top: 20px;
                     }
@@ -107,7 +111,7 @@
                     }
 
                 #lista {
-                    height: 1180px;
+                    height: 1170px;
                 }
 
             form {
@@ -179,7 +183,7 @@
                 #endResid{
                     top: 130px;
                     width: 63vw;
-                    height: 550px; 
+                    height: 520px; 
                     padding-left: 10px;          
                 }
 
@@ -190,10 +194,10 @@
                 #endCom {
                     display: block;
                     position: absolute;
-                    top: 630px;
+                    top: 650px;
                     left: 0px;
                     width: 63vw;
-                    height: 550px;
+                    height: 520px;
                     padding-left: 10px;
                 }
 
