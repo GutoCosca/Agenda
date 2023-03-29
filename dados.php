@@ -40,7 +40,6 @@
         $cidadeCom = $_GET ["cidadeCom"];
         $ufCom = $_GET ["ufCom"];
 
-        echo "Meu nome é $nome $sobrenome, nasci em $natal tel01 $tel01, tel02 $tel02, Celular $cel, e-mail $email end $endResid, $numero - $complemento, Bairro: $bairro - CEP: $cep - Cidade: $cidade - UF: $uf Empresa: $empresa";
     ?>
 </body>
 </html>

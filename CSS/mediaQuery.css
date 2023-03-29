@@ -87,7 +87,7 @@
 
         main {
             width: 100vw;
-            height: 1170px;
+            height: 1200px;
         }
 
             nav {
@@ -96,22 +96,22 @@
 
                 #menu {
                     width: 10vw;
-                    height: 1170px;
+                    height: 1200px;
                 }
 
                     #indice {
-                        height: 1170px;
+                        height: 1200px;
                         list-style: none;
                         padding-top: 20px;
                     }
 
                     .letra {
                         font-size: 1.5em;
-                        padding-top: 11px;
+                        padding-top: 12.5px;
                     }
 
                 #lista {
-                    height: 1170px;
+                    height: 1200px;
                 }
 
             form {
@@ -197,7 +197,7 @@
                     top: 650px;
                     left: 0px;
                     width: 63vw;
-                    height: 520px;
+                    height: 550px;
                     padding-left: 10px;
                 }
 
