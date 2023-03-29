@@ -71,10 +71,6 @@
         font-size: 0.95em;
     }
 
-    body {
-        width: 100vw;
-        border: 1px solid #000000;
-    }
         header {
             width: 100vw;
             height: 100px;
@@ -87,7 +83,7 @@
 
         main {
             width: 100vw;
-            height: 1150px;
+            height: 1180px;
         }
 
             nav {
@@ -96,11 +92,11 @@
 
                 #menu {
                     width: 10vw;
-                    height: 1150px;
+                    height: 1180px;
                 }
 
                     #indice {
-                        height: 1150px;
+                        height: 1180px;
                         list-style: none;
                         padding-top: 20px;
                     }
@@ -111,7 +107,7 @@
                     }
 
                 #lista {
-                    height: 1150px;
+                    height: 1180px;
                 }
 
             form {
@@ -183,7 +179,7 @@
                 #endResid{
                     top: 130px;
                     width: 63vw;
-                    height: 500px; 
+                    height: 550px; 
                     padding-left: 10px;          
                 }
 
@@ -197,7 +193,7 @@
                     top: 630px;
                     left: 0px;
                     width: 63vw;
-                    height: 520px;
+                    height: 550px;
                     padding-left: 10px;
                 }
 
