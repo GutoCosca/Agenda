@@ -164,3 +164,13 @@
         height: 100px;
         background-color: #969696;
     }
+
+        footer > div{
+            padding-top: 35px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bolder;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px #000000;
+            
+        }
