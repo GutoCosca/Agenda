@@ -6,94 +6,98 @@
     border-collapse: collapse;
 }
 
+/*body {
+    overflow-x: hidden;
+}*/
     header{
-        height: 20vh;
+        height: 200px;
         background-color: #b9b9f3;
     }
     
         h1 {
-            text-align: center;
-            padding-top: 4vh;
+            padding-top: 50px;
             font-size: 5em;
+            text-align: center;
         }
 
     main {
-        height: 70vh;
+        height: 780px;
         background-color: #d67faa;
     }
 
         nav {
             display: inline-block;
-            width: 20vw;
-            height: 70vh;
+            width: 363px;
+            height: 780px;
             background-color: #7fffd4;
         }
 
             #menu {
                 display: inline-block;
-                width: 5vw;
-                height: 70vh;
+                width: 100px;
+                height: 780px;
                 background-color: #bdb76b;
             }
 
                 #indice {
                     list-style: none;
-                    padding: 0.5vh 0px 0px 0vw;
+                    padding-top: 20px;
                 }
 
                     .letra {
-                        margin-top: 0.75vh;
+                        margin-top: 10px;
                         text-align: center;
                     }
 
             #lista {
                 display: inline-block;
                 position: absolute;
-                width: 15vw;
-                height: 70vh;
+                width: 280px;
+                height: 780px;
                 background-color: #d18f59;
             }
 
         form {
             display: inline-block;
             position: absolute;
-            width: 80vw;
-            height: 70vh;
+            width: 1540px;
+            height: 780px;
             background-color: #ff7f50;
         }
 
             #infoPessoal {
                 display: inline-block;
                 position: absolute;
-                width: 80vw;
-                height: 20vh;
+                width: 1540px;
+                height: 200px;
                 background-color: #bdb76b;
             }
 
                 #iFoto{
                     display: inline-block;
-                    width: 7vw;
-                    height: 18vh;
-                    margin: 10px 0px 10px 30px;
+                    width: 130px;
+                    height: 180px;
+                    margin: 10px 0px 10px 20px;
                     border: 1px solid #000000;
                 }
 
                 .dadosPessoal {
                     display: inline-block;
                     position: absolute;
-                    padding: 6vh 0vw 0vh 4vw;
+                    padding: 60px 0px 0px 4px;
                 }
 
                 h2 {
+                    padding: 35px 0px 55px 0px;
                     text-align: center;
-                    padding: 35px 0px 35px 0px;
+                    font-size: 2.5em;
                 }    
 
                 label {
                     display: inline-block;
                     width: 85px;
+                    padding: 15px 0px 15px 20px;
                     text-align: center;
-                    padding: 15px 0px 15px 25px;
                 }
 
                 input {
@@ -128,9 +132,9 @@
             #endResid {
                 display: inline-block;
                 position: absolute;
-                top: 20vh;
-                width: 40vw;
-                height: 50vh;
+                top: 200px;
+                width: 770px;
+                height: 580px;
                 background-color: #ee82ee;
             }
 
@@ -141,15 +145,15 @@
             #endCom {
                 display: inline-block;
                 position: absolute;
-                top: 20vh;
-                left: 40vw;
-                width: 40vw;
-                height: 50vh;
+                top: 200px;
+                left: 770px;
+                width: 770px;
+                height: 580px;
                 background-color: #00ced1;
             }
 
             #endCom > h2 {
-                padding-bottom: 5px;
+                padding-bottom: 45px;
             }
 
             #endCom > label {
@@ -157,37 +161,69 @@
             }
 
     footer {
-        height: 10vh;
+        height: 100px;
         background-color: #969696;
     }
 
-    @media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
 
         /* Para visualização em notebooks */
-    
-        .letra {
-            font-size: 0.8em;
-        }  
 
-        #iFoto{
-            margin: 10px -10px 10px 10px;
-        }
-
-        .dadosPessoal {
-            padding: 6vh 0vw 0vh 0vw;
-        }
-
-        label {
-            display: inline-block;
-            width: 85px;
-            text-align: center;
-        }
-
-        #endResid > label {
-            padding: 10px 0px 10px 10px;
-        }
-
-        #endCom > label {
-            padding: 10px 0px 10px 7px;
-        }
+    header {
+        width: 1407px;
     }
+
+    main {
+        height: 780px;
+    }
+
+        nav {
+            width: 281px;
+        }
+
+            #menu {
+                width: 61px;
+            }
+
+                #indice {
+                    list-style: none;
+                    padding-top: 20px;
+                } 
+
+        form {
+            width: 1126px;
+        }
+
+            #infoPessoal {
+                width: 1126px;
+            }
+
+            label {
+                display: inline-block;
+                width: 85px;
+                padding: 0px 0px 0px 0px;
+                text-align: center;
+            }
+
+            #iSobrenome {
+                width: 300px;
+            }
+
+            #endResid{
+                width: 563px;
+            }
+
+                #endResid > label {
+                    width: 563px;
+                    padding: 10px 0px 10px 3px;
+                }
+
+            #endCom {
+                left: 563px;
+                width: 563px;
+            }
+
+                #endCom > label {
+                    padding: 10px 0px 10px 3px;
+                }
+}
