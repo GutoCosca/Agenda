@@ -78,7 +78,8 @@
         }
 
     main {
-        height: 780px;
+        height: 1000px;
+        border: 1px solid #000000;
     }
 
         nav {
