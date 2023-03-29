@@ -68,7 +68,7 @@
     /* Para visualização em tablet e smartphones*/
 
     header {
-        width: 420px;
+        width: 100vw;
         height: 100px;
     }
 
@@ -78,29 +78,31 @@
         }
 
     main {
-        width: 768px;
+        width: 100vw;
         height: 1600px;
     }
 
         nav {
-            width: 268px;
+            width: 35vw;
         }
 
             #menu {
-                width: 68px;
+                width: 10vw;
+                height: 1600px;
             }
 
                 #indice {
+                    height: 1600px;
                     list-style: none;
                     padding-top: 20px;
                 } 
 
         form {
-            width: 500px;
+            width: 65vw;
         }
 
             #infoPessoal {
-                width: 500px;
+                width: 65vw;
             }
 
             label {
@@ -115,7 +117,7 @@
             }
 
             #endResid{
-                width: 500px;
+                width: 65vw;
                 height: 700px;               
             }
 
@@ -129,11 +131,15 @@
                 position: absolute;
                 top: 900px;
                 left: 0px;
-                width: 500px;
+                width: 65vw;
                 height: 700px;
             }
 
                 #endCom > label {
                     padding: 0px;
                 }
+    
+    footer {
+        width: 100vw;
+    }
 }
