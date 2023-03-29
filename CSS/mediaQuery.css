@@ -103,7 +103,12 @@
                         height: 1150px;
                         list-style: none;
                         padding-top: 20px;
-                    } 
+                    }
+
+                    .letra {
+                        font-size: 1.5em;
+                        padding-top: 11px;
+                    }
 
             form {
                 width: 65vw;
