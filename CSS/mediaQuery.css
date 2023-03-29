@@ -67,79 +67,140 @@
 
     /* Para visualização em tablet e smartphones*/
 
-    header {
-        width: 100vw;
-        height: 100px;
+    *{
+        font-size: 0.95em;
     }
 
-        h1 {
-            padding-top: 30px;
-            font-size: 2em;
-        }
-
-    main {
+    body {
         width: 100vw;
-        height: 1600px;
+        border: 1px solid #000000;
     }
-
-        nav {
-            width: 35vw;
+        header {
+            width: 100vw;
+            height: 100px;
         }
 
-            #menu {
-                width: 10vw;
-                height: 1600px;
+            h1 {
+                padding-top: 30px;
+                font-size: 2em;
             }
 
-                #indice {
-                    height: 1600px;
-                    list-style: none;
-                    padding-top: 20px;
-                } 
-
-        form {
-            width: 65vw;
+        main {
+            width: 100vw;
+            height: 1150px;
         }
 
-            #infoPessoal {
-                width: 65vw;
+            nav {
+                width: 35vw;
             }
 
-            label {
-                display: block;
-                width: 65px;
-                padding: 0px 0px 0px 0px;
-                text-align: center;
-            }
-
-            #iSobrenome {
-                width: 300px;
-            }
-
-            #endResid{
-                width: 65vw;
-                height: 700px;               
-            }
-
-                #endResid > label {
-                    width: 563px;
-                    padding: 0px;
+                #menu {
+                    width: 10vw;
+                    height: 1150px;
                 }
 
-            #endCom {
-                display: block;
-                position: absolute;
-                top: 900px;
-                left: 0px;
+                    #indice {
+                        height: 1150px;
+                        list-style: none;
+                        padding-top: 20px;
+                    } 
+
+            form {
                 width: 65vw;
-                height: 700px;
             }
 
-                #endCom > label {
-                    padding: 0px;
+                #infoPessoal {
+                    width: 65vw;
+                    height: 130px;
                 }
-    
-    footer {
-        width: 100vw;
-    }
+
+                    #iFoto{
+                        width: 80px;
+                        height: 110px;
+                        margin: 10px 0px 10px 20px;
+                        border: 1px solid #000000;
+                    }
+
+                    .dadosPessoal {
+                        padding: 15px 0px 0px 20px;
+                    }
+
+                    label {
+                        display: block;
+                        width: 60px;
+                        padding: 0px 0px 0px 0px;
+                        text-align: left;
+                    }
+
+                    input {
+                        width: 100px;
+                        text-align: left;
+                        font-size: 0.9EM;
+                    }
+
+                    #iNome {
+                        width: 100px;
+                    }
+
+                    .txtGr {
+                        width: 250px;
+                    }
+
+                    .txtMd {
+                        width: 120px;
+                    }
+
+                    .numGr {
+                        width: 90px;
+                    }
+
+                    .numPq {
+                        width: 35px;
+                    }
+
+                    #iRamalCom {
+                        width: 35px;
+                    }
+
+                    #iSobrenome {
+                        width: 150px;
+                    }
+
+                h2 {
+                    padding: 10px 0px 5px 0px;
+                    font-size: 1.5em;
+                }
+
+                #endResid{
+                    top: 130px;
+                    width: 63vw;
+                    height: 500px; 
+                    padding-left: 10px;          
+                }
+
+                    #endResid > label {
+                        padding: 5px 0px 5px 0px;
+                    }
+
+                #endCom {
+                    display: block;
+                    position: absolute;
+                    top: 630px;
+                    left: 0px;
+                    width: 63vw;
+                    height: 520px;
+                    padding-left: 10px;
+                }
+
+                #endCom > h2 {
+                    padding: 10px 0px 5px 0px;
+                }
+
+                    #endCom > label {
+                        padding: 5px 0px 0px 0px;
+                    }
+        
+        footer {
+            width: 100vw;
+        }
 }
