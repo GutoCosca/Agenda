@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +40,7 @@
         $cidadeCom = $_GET ["cidadeCom"];
         $ufCom = $_GET ["ufCom"];
 
+        echo "$nome, $sobrenome, $natal</br> $tel01, $tel02, $cel, $email</br> $endResid, $numero, $complemento, $bairro</br> $cep, $cidade, $uf</br> $empresa</br> $telCom01, $telCom02, $ramalCom, $celCom, $emailCom</br> $endCom, $numeroCom, $complementoCom, $bairroCom</br> $cepCom, $cidadeCom, $ufCom"
     ?>
 </body>
 </html>
