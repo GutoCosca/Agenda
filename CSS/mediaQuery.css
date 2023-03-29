@@ -110,6 +110,10 @@
                         padding-top: 11px;
                     }
 
+                #lista {
+                    height: 1150px;
+                }
+
             form {
                 width: 65vw;
             }
