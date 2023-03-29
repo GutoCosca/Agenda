@@ -11,6 +11,8 @@
         $nome = $_GET ["nome"];
         $sobrenome = $_GET ["sobrenome"];
         $natal = $_GET ["natal"];
+
+        /* endereço residencial*/
         $tel01 = $_GET ['tel01'];
         $tel02 = $_GET ["tel02"];
         $cel = $_GET ["cel"];
@@ -22,7 +24,22 @@
         $cep = $_GET ["cep"];
         $cidade = $_GET ["cidade"];
         $uf = $_GET ["uf"];
-        echo "Meu nome é $nome $sobrenome, nasci em $natal tel01 $tel01, tel02 $tel02, Celular $cel, e-mail $email end $endResid, $numero - $complemento, Bairro: $bairro - CEP: $cep - Cidade: $cidade - UF: $uf";
+        
+        /* endereço comercial*/
+        $empresa = $_GET ["empresa"];
+        $telCom01 = $_GET ['telCom01'];
+        $telCom02 = $_GET ["telCom02"];
+        $ramalCom = $_GET ["ramalCom"];
+        $celCom = $_GET ["celCom"];
+        $emailCom = $_GET ["emailCom"];
+        $endCom =$_GET ["endCom"];
+        $numeroCom = $_GET ["numeroCom"];
+        $complementoCom = $_GET ["complementoCom"];
+        $bairroCom = $_GET ["bairroCom"];
+        $cepCom = $_GET ["cepCom"];
+        $cidadeCom = $_GET ["cidadeCom"];
+        $ufCom = $_GET ["ufCom"];
+
     ?>
 </body>
 </html>
