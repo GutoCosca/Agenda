@@ -1,12 +1,136 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+
+    /* Para visualização em notebooks */
+
+    header {
+        width: 1407px;
+    }
+
+    main {
+        height: 780px;
+    }
+
+        nav {
+            width: 281px;
+        }
+
+            #menu {
+                width: 61px;
+            }
+
+                #indice {
+                    list-style: none;
+                    padding-top: 20px;
+                } 
+
+        form {
+            width: 1126px;
+        }
+
+            #infoPessoal {
+                width: 1126px;
+            }
+
+            label {
+                display: inline-block;
+                width: 85px;
+                padding: 0px 0px 0px 0px;
+                text-align: center;
+            }
+
+            #iSobrenome {
+                width: 300px;
+            }
+
+            #endResid{
+                width: 563px;
+            }
+
+                #endResid > label {
+                    width: 563px;
+                    padding: 10px 0px 10px 3px;
+                }
+
+            #endCom {
+                left: 563px;
+                width: 563px;
+            }
+
+                #endCom > label {
+                    padding: 10px 0px 10px 3px;
+                }
+}
+
+@media screen and (max-width: 768px) {
 
     /* Para visualização em tablet e smartphones*/
 
-    .letra {
-        padding-top: 0.1vh;
-        font-size: 0.55em;
+    header {
+        width: 768px;
+        height: 100px;
     }
 
+        h1 {
+            padding-top: 30px;
+            font-size: 2em;
+        }
+
+    main {
+        height: 780px;
+    }
+
+        nav {
+            width: 268px;
+        }
+
+            #menu {
+                width: 68px;
+            }
+
+                #indice {
+                    list-style: none;
+                    padding-top: 20px;
+                } 
+
+        form {
+            width: 500px;
+        }
+
+            #infoPessoal {
+                width: 500px;
+            }
+
+            label {
+                display: block;
+                width: 65px;
+                padding: 0px 0px 0px 0px;
+                text-align: center;
+            }
+
+            #iSobrenome {
+                width: 300px;
+            }
+
+            #endResid{
+                width: 500px;
+                height: 800px;               
+            }
+
+                #endResid > label {
+                    width: 563px;
+                    padding: 0px;
+                }
+
+            #endCom {
+                display: block;
+                position: relative;
+                width: 500px;
+                
+            }
+
+                #endCom > label {
+                    padding: 0px;
+                }
 }
