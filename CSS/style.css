@@ -3,38 +3,34 @@
 * {
     margin: 0px;
     padding: 0px;
-    border-collapse: collapse;
 }
 
-/*body {
-    overflow-x: hidden;
-}*/
     header{
-        height: 150px;
         background-color: #b9b9f3;
     }
     
         h1 {
-            padding-top: 30px;
-            font-size: 5em;
+            padding: 35px 0px 35px 0px;
+            font-size: 4em;
             text-align: center;
         }
 
     main {
-        height: 760px;
-        background-color: #d67faa;
+        max-width: 1440px;
+        margin: auto;
+        /*background-color: #d67faa;*/
     }
 
         nav {
             display: inline-block;
-            width: 363px;
+            width: 219px;
             height: 760px;
             background-color: #7fffd4;
         }
 
             #menu {
                 display: inline-block;
-                width: 100px;
+                width: 50px;
                 height: 760px;
                 background-color: #bdb76b;
             }
@@ -52,7 +48,7 @@
             #lista {
                 display: inline-block;
                 position: absolute;
-                width: 280px;
+                width: 169px;
                 height: 760px;
                 background-color: #d18f59;
             }
@@ -60,7 +56,7 @@
         form {
             display: inline-block;
             position: absolute;
-            width: 1540px;
+            width: 1188px;
             height: 760px;
             background-color: #ff7f50;
         }
@@ -68,7 +64,7 @@
             #infoPessoal {
                 display: inline-block;
                 position: absolute;
-                width: 1557px;
+                width: 1188px;
                 height: 200px;
                 background-color: #bdb76b;
             }
@@ -88,7 +84,7 @@
                 }
 
                 h2 {
-                    padding: 35px 0px 55px 0px;
+                    padding: 45px 0px 55px 0px;
                     text-align: center;
                     font-size: 2.5em;
                 }    
@@ -133,40 +129,49 @@
                 display: inline-block;
                 position: absolute;
                 top: 200px;
-                width: 778.5px;
+                width: 594px;
                 height: 560px;
                 background-color: #ee82ee;
             }
 
             #endResid > label {
-                padding: 15px 0px 15px 80px;
+                padding: 15px 0px 15px 30px;
             }
 
             #endCom {
                 display: inline-block;
                 position: absolute;
                 top: 200px;
-                left: 778.5px;
-                width: 778.5px;
+                left: 594px;
+                width: 594px;
                 height: 560px;
                 background-color: #00ced1;
             }
 
-            #endCom > h2 {
-                padding-bottom: 45px;
+            #endResid > h2 {
+                padding-bottom: 90px;
             }
 
             #endCom > label {
-                padding: 15px 0px 15px 50px;
+                padding: 15px 0px 15px 15px;
+            }
+
+            #iGravar {
+                position: absolute;
+                width: 100px;
+                height: 25px;
+                top: 530px;
+                left: 485px;
+                text-align: center;
             }
 
     footer {
-        height: 50px;
+        /*height: 50px;*/
         background-color: #969696;
     }
 
         footer > div{
-            padding-top: 15px;
+            padding: 15px 0px 15px 0px;
             text-align: center;
             font-size: 1.3em;
             font-weight: bolder;

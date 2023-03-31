@@ -1,76 +1,149 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    /* Para visualização em notebooks */
+     /*Para visualização em tablets*/
 
-    header {
-        width: 1407px;
+     *{
+        font-size: 0.97em;
     }
-
-   /* main {
-        height: 760px;
-    }
-
-        nav {
-            width: 281px;
-        }*/
-
-            #menu {
-                width: 61px;
+            h1 {
+                padding-top: 30px;
+                font-size: 3em;
             }
 
-                #indice {
-                    list-style: none;
-                    padding-top: 20px;
-                } 
-
-        form {
-            width: 1126px;
+        main {
+            max-width: 1024px;
         }
 
-            #infoPessoal {
-                width: 1126px;
+            nav {
+                width: 181px;
+                height: 600px;
             }
 
-            label {
-                display: inline-block;
-                width: 85px;
-                padding: 0px 0px 0px 0px;
-                text-align: center;
-            }
-
-            #iSobrenome {
-                width: 300px;
-            }
-
-            #endResid{
-                width: 563px;
-            }
-
-                #endResid > label {
-                    padding: 10px 0px 10px 3px;
+                #menu {
+                    height: 600px;
                 }
 
+                    #indice {
+                        padding-top: 10px;
+                    }
 
+                    .letra {
+                        margin-top: 5px;
+                        font-size: 1.1em;
+                    }
 
-            #endCom {
-                left: 563px;
-                width: 563px;
-            }
-
-                #endCom > label {
-                    padding: 10px 0px 10px 3px;
+                #lista {
+                    width: 141px;
+                    height: 600px;
                 }
 
-    footer{
-        width: 1407px;
-    }
+            form {
+                width: 826px;
+                height: 600px;
+            }
+
+                #infoPessoal {
+                    width: 826px;
+                }
+
+                    .dadosPessoal {
+                        padding: 20px 0px 0px 25px;
+                    }
+
+                    .dadosPessoal > label {
+                        display: block;
+                        width:65px;
+                        padding: 5px 0px 5px 0px;
+                        text-align: left;
+                    }
+
+                    input {
+                        width: 100px;
+                        text-align: left;
+                        font-size: 0.9EM;
+                    }
+
+                    label {
+                        display: inline-block;
+                        width: 70px;
+                        padding: 10px 0px 10px 10px;
+                        text-align: center;
+                    }
+
+                    #iNome {
+                        width: 150px;
+                    }
+
+                    .txtGr {
+                        width: 250px;
+                    }
+
+                    .txtMd {
+                        width: 120px;
+                    }
+
+                    .numGr {
+                        width: 90px;
+                    }
+
+                    .numPq {
+                        width: 35px;
+                    }
+
+                    #iRamalCom {
+                        width: 35px;
+                    }
+
+                    #iSobrenome {
+                        width: 300px;
+                    }
+
+                h2 {
+                    padding: 50px 0px 50px 0px;
+                    font-size: 2.0em;
+                }
+
+                #endResid{
+                    width: 410.5px;
+                    height: 400px; 
+                    padding-left: 5px;          
+                }
+
+                    #endResid > label {
+                        padding: 5px 0px 5px 0px;
+                    }
+
+                #endCom {
+                    display: block;
+                    position: absolute;
+                    left: 410.5px;
+                    width: 410.5px;
+                    height: 400px;
+                    padding-left: 5px;
+                }
+
+                    #endCom > h2 {
+                        padding-bottom: 30px;
+                    }
+
+                    #endCom > label {
+                        padding: 5px 0px 5px 0px;
+                    }
+
+                    #iGravar {
+                        position: absolute;
+                        top: 370px;
+                        left: 310px;
+                        text-align: center;
+                    }
+        
 }
 
 @media screen and (max-width: 768px) {
 
-    /* Para visualização tablet smartphones*/
+    /* Para visualização smartphones*/
 
     *{
         font-size: 0.95em;
@@ -206,13 +279,20 @@
                     padding-left: 10px;
                 }
 
-                #endCom > h2 {
+                #endResid > h2 {
                     padding: 10px 0px 5px 0px;
                 }
 
                     #endCom > label {
                         padding: 5px 0px 0px 0px;
                     }
+
+                #iGravar {
+                    position: absolute;
+                    top: 520px;
+                    left: 220px;
+                    text-align: center;
+                }
         
         footer {
             width: 100vw;
