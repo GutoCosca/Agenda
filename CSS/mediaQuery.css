@@ -10,11 +10,11 @@
 
    /* main {
         height: 760px;
-    }*/
+    }
 
         nav {
             width: 281px;
-        }
+        }*/
 
             #menu {
                 width: 61px;
@@ -62,6 +62,10 @@
                 #endCom > label {
                     padding: 10px 0px 10px 3px;
                 }
+
+    footer{
+        width: 1407px;
+    }
 }
 
 @media screen and (max-width: 768px) {
