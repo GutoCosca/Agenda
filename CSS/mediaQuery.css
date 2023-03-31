@@ -8,9 +8,9 @@
         width: 1407px;
     }
 
-    main {
-        height: 780px;
-    }
+   /* main {
+        height: 760px;
+    }*/
 
         nav {
             width: 281px;
@@ -49,9 +49,10 @@
             }
 
                 #endResid > label {
-                    width: 563px;
                     padding: 10px 0px 10px 3px;
                 }
+
+
 
             #endCom {
                 left: 563px;
